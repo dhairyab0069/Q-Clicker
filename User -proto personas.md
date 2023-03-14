@@ -6,4 +6,4 @@
   
 *Instructor with a valid login ID and iClicker account.
   
-![Instructor]()
+![Instructor](Userprotopersonas2.png)
