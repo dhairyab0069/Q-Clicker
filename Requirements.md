@@ -26,8 +26,16 @@
 
   2. Testing: Need to regularly test and debug the platform during development to ensure it functions correctly and meets user requirement.
 
+  3. Grading: Needs a grading feature that allows instructors to grade student responses and calculate grades based on responses.
+
+  4. Question Creation: System must allow instructors to create questions of various types such as multiple-choice, true/false, and short answer questions, as well as create pre-made assignments.
+
 ## Non Functional Requirements:
 
 - Compatibility: The polling system should be compatible with different devices such as Laptops, Ipads, Tablets, Iphones etc. It should also be compatible with different operating systems such as Windows, MACOs, IOS etc.
 
 - Performance : The performance should be agile so that that the response given by the students using different operating systems is reached to the instructor and can be graded.
+
+- Scalability : Need to make sure it can accomodate growing number of organisations(schools or universities) and students while also managing increasing number of poll requests.
+
+- Security: Need to ensure that student data is secure and does not leak sensative information of millions of users(including school administration).
