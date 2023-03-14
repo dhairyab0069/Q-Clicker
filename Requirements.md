@@ -22,10 +22,12 @@
 
 - System Requirements : This includes,
 
-  1. Security: Need to ensure that student data is secure and does not leak sensative information of millions of users(including school administration).
+  1. Database : Need a database to store results of polls and assignments. This requires a DBMS, such as MySQL, Microsoft SQL etc.
 
-  2. Database : Need a database to store results of polls and assignments. This requires a DBMS, such as MySQL, Microsoft SQL etc.
+  2. Testing: Need to regularly test and debug the platform during development to ensure it functions correctly and meets user requirement.
 
-  3. Testing: Need to regularly test and debug the platform during development to ensure it functions correctly and meets user requirement.
+## Non Functional Requirements:
 
-  4. Scalability : Need to make sure it can accomodate growing number of organisations(schools or universities) and students while also managing increasing number of poll requests.
+- Compatibility: The polling system should be compatible with different devices such as Laptops, Ipads, Tablets, Iphones etc. It should also be compatible with different operating systems such as Windows, MACOs, IOS etc.
+
+- Performance : The performance should be agile so that that the response given by the students using different operating systems is reached to the instructor and can be graded.
