@@ -9,7 +9,7 @@ Observer design pattern: It uses the one to many dependency concept between obje
 
 Facade design pattern: The facade design pattern will enable the user to easily access the systems functionality using a facade class.
 
-Apart from this, our system should use Continuous Integration and Deployment (CI/CD) to ensure our platform is continuously updated to merge new features and fix any bugs. We shall enable automated testing and deploy quickly without errors. 
+Apart from this, our system should use Continuous Integration and Deployment (CI/CD) to ensure our platform is continuously updated to merge new features and fix any bugs. We shall enable automated testing and deploy quickly without errors. We will use dockerized deployment.
 
 
 
