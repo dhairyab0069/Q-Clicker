@@ -1,4 +1,4 @@
-#Project description
+##Project description
 
 For this project our team will be building an iClicker clone.
 We will build a polling platform that will allow the instructor to interact with the user by posting poll questions on the platform and the user can participate in the poll.
