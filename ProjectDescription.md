@@ -2,11 +2,16 @@
 
 For this project our team will be building an iClicker clone.
 
-We will build a polling platform that will allow the instructor to interact with the user by posting poll questions on the platform and the user can participate in the poll, by checking into the active session and submitting their responses. 
+We will build a polling platform that will allow the instructor to interact with the user by posting poll questions on the platform and the user can participate in the poll, by checking into the active session and submitting their responses. Our application will be web-based.
 
 The users should be able to sign up for an account if they are a new user or login into an existing account.
 
 After logging in the students should be able to see the classes they are enrolled in. The students should be able to join a class by selecting the course for which they will join the class and clicking join once the instructor has started the session.
+
+Instructor
+
+
+
 
 
 
