@@ -4,7 +4,7 @@
 
 - User Requirements : This includes ,
 
-  1.  Students
+  1.  Students will be able to:
 
       1. Logging into the system.
       2. Participation in polls.
@@ -12,7 +12,7 @@
       4. Start and Submit assignments.
       5. Joining the class.
 
-  2.  Instructors
+  2.  Instructors will be able to:
 
       1. Creating courses.
       2. Starting Live Polls during class.
