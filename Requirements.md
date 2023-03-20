@@ -6,19 +6,19 @@
 
   1.  Students will be able to:
 
-      1. Logging into the system.
-      2. Participation in polls.
+      1. Log into the system.
+      2. Participate in polls.
       3. View score and statistics.
-      4. Start and Submit assignments.
-      5. Joining the class.
+      4. Start and submit assignments.
+      5. Join the class.
 
   2.  Instructors will be able to:
 
-      1. Creating courses.
-      2. Starting Live Polls during class.
-      3. Creating assignments.
-      4. Marking and submitting assignments.
-      5. Starting class and letting students in.
+      1. Create courses.
+      2. Start Live Polls during class.
+      3. Create assignments.
+      4. Mark and submit assignments.
+      5. Start class and letting students in.
 
 - System Requirements : This includes,
 
