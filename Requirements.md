@@ -36,6 +36,4 @@
 
 - Performance : The performance should be agile so that that the response given by the students using different operating systems is reached to the instructor and can be graded.
 
-- Scalability : Need to make sure it can accomodate growing number of organisations(schools or universities) and students while also managing increasing number of poll requests.
-
 - Security: Need to ensure that student data is secure and does not leak sensative information of millions of users(including school administration).
