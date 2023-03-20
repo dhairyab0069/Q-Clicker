@@ -17,7 +17,7 @@
 
       1. Create an account (skip if an existing account).
       2. Login to the account.
-      3. Start class and let students in.
+      3. Start class.
       4. Ask questions in the poll.
       5. Grade results.
 
