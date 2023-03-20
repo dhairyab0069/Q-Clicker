@@ -4,21 +4,22 @@
 
 - User Requirements : This includes ,
 
-  1.  Students will be able to:
+  1.  Students will be able to: 
 
-      1. Log into the system.
-      2. Participate in polls.
-      3. View score and statistics.
-      4. Start and submit assignments.
-      5. Join the class.
+      1. Create an account (skip if an existing account).
+      2. Log in to the account.
+      3. Enroll in a course and view enrolled courses later.
+      4. Join a class.
+      5. Participate in polls.
+      6. View score and statistics.
 
   2.  Instructors will be able to:
 
-      1. Create courses.
-      2. Start Live Polls during class.
-      3. Create assignments.
-      4. Mark and submit assignments.
-      5. Start class and letting students in.
+      1. Create an account (skip if an existing account).
+      2. Login to the account.
+      3. Start class and let students in.
+      4. Ask questions in the poll.
+      5. Grade results.
 
 - System Requirements : This includes,
 
