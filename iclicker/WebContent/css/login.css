@@ -1,0 +1,111 @@
+.Title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-left: 75px;
+  margin-right: 75px;
+  background-color: aqua;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.Title h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+body {
+  background-color: darkgrey;
+}
+.form {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+/* Style the logo */
+.logo {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  max-width: 100px;
+  filter: sepia(100%) hue-rotate(-30deg);
+}
+
+/* Style the input fields */
+.input-field {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f5f5f5;
+  color: #666;
+  font-size: 16px;
+  font-family: "Courier New", monospace;
+  letter-spacing: 1px;
+}
+
+/* Style the login button */
+.login-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #c77d5a;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Courier New", monospace;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.login-button:hover {
+  background-color: #a34e35;
+}
+
+/* Style the forgot password link */
+.forgot-password-link {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: "Courier New", monospace;
+  color: #999;
+  text-align: right;
+  text-decoration: none;
+}
+
+.forgot-password-link:hover {
+  color: #c77d5a;
+}
+
+/* Style the sign up link */
+.signup-link {
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: "Courier New", monospace;
+  color: #666;
+  text-align: center;
+}
+
+.signup-link a {
+  color: #c77d5a;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,35 @@
+body {
+  background-color: #edecec;
+  font-family: "Courier New", Courier, monospace;
+}
+
+table {
+  margin: 50px auto;
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 800px;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+th {
+  background-color: #bfbfbf;
+}
+
+tr:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px black;
+  color: #bfbfbf;
+}
