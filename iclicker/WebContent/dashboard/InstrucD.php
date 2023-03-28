@@ -28,13 +28,17 @@ error_reporting(E_ALL);
 <head>
 	<title>Instructor Dashboard</title>
 	<link rel ="stylesheet" href = "../css/dashboard.css">
+	<link rel="icon" href="../images/QClicker.png" type="image/icon type">
 	
 </head>
 <body>
 	<h1>Welcome!</h1>
+	
+
 	<p>You are currently teaching <?php echo $num_courses; ?> courses.</p>
 	<h2>Your Courses</h2>
-	<table>
+	<button onclick="location.href='../Courses/addCourse.php'">Add Course</button>
+	<table> 
 		<tr>
 			<th>Course Name</th>
 		</tr>
@@ -70,6 +74,7 @@ error_reporting(E_ALL);
 		?>
 
 	</table>
+	
 	<a href="../logout.php">Log Out</a>
 </body>
 </html>

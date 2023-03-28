@@ -33,3 +33,19 @@ h1 {
   text-shadow: 2px 2px black;
   color: #bfbfbf;
 }
+button {
+  background-color: #8b0000;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #333;
+  text-shadow: 1px 1px #333;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #8b0000;
+}

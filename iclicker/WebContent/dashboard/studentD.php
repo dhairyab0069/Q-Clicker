@@ -14,6 +14,7 @@ if (!isset($_SESSION['user_id'])) {
     <head>
         <title> Student</title>
         <link rel = "stylesheet"href = "../css/dashboard.css">
+        <link rel="icon" href="../images/QClicker.png" type="image/icon type">
     </head>
     <body>
 <?php
