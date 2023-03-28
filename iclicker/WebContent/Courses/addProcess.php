@@ -34,12 +34,12 @@ $new_id = $max_id + 1;
 $sql = "INSERT INTO Courses (course_id, instructor_id, course_name) VALUES ($new_id, '$instructor_id', '$course_name')";
 
 if (mysqli_query($conn, $sql)) {
-    echo "Course created successfully!";
-    header("../dashboard/InstrucD.php");
+    header("Location: ../dashboard/InstrucD.php");
     exit();
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
+
 
 // close the connection
 mysqli_close($conn);

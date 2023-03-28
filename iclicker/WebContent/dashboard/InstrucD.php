@@ -73,7 +73,7 @@ error_reporting(E_ALL);
   		mysqli_close($conn);
 		?>
 
-	</table>
+	</table><br><br>
 	
 	<a href="../logout.php">Log Out</a>
 </body>

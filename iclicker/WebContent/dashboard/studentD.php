@@ -59,6 +59,7 @@ echo "</table>";
 // Close database connection
 mysqli_close($conn);
 ?>
-<a href ="../logout.php"> Log Out> </a>
+<button onclick="location.href='../Courses/JoinCourse.php'">Join Course</button><br><br>
+<a href ="../logout.php"> Log Out </a>
 </body>
 </html>
