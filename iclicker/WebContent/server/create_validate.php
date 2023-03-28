@@ -51,12 +51,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     // Create a connection to the database
     $servername = "localhost";
-    $username = "dhairya";
-    $password = "db19082002";
+    $dbusername = "dhairya";
+    $dbpassword = "db19082002";
     $dbname = "iclicker";
     
 
-    $conn = new mysqli($servername, $username, $password, $dbname);
+    $conn = new mysqli($servername, $dbusername, $dbpassword, $dbname);
 
     // Check connection
     if ($conn->connect_error) {
@@ -89,6 +89,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (mysqli_query($conn, $sql)) {
         // Store the user_id in the session and redirect to success page
         $_SESSION['user_id'] = $user_id;
+        $_SESSION['user_name'] = $user_name;
         header('Location: ../dashboard.php');
         exit;
       } else {

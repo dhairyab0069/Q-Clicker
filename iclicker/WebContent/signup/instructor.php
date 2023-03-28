@@ -18,7 +18,7 @@ session_start();
     </head>
     <body>
     <div class="content">
-        <form method="post" >
+        <form method="post"  action = '../server/create_validate.php'>
             <input type="hidden" name="user_type" value="instructor">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>

@@ -17,7 +17,7 @@ session_start();
     </head>
     <body>
     <div class="content">
-        <form name = 'login' method = 'post' >
+        <form name = 'login' method = 'post' action ="../server/login_validate.php">
         <div class="form">
           <img src="../images/qClicker.png" alt="Qclicker" class="logo" />
           <input type="hidden" name="user_type" value="instructor">
