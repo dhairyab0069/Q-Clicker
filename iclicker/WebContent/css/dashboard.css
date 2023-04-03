@@ -1,0 +1,70 @@
+body {
+  background-color: #edecec;
+  font-family: "Courier New", Courier, monospace;
+}
+
+table {
+  margin: 50px auto;
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 800px;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+th {
+  background-color: #bfbfbf;
+}
+
+tr:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px black;
+  color: #bfbfbf;
+}
+button {
+  background-color: blue;
+  color: white;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #333;
+  text-shadow: 1px 1px #333;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: blue;
+}
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: grey;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover:before {
+  height: 100%;
+}
+
+a:hover {
+  background-color: red;
+}
