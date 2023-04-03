@@ -51,7 +51,9 @@ echo "<table>";
 echo "<tr><th>COURSES</th></tr>";
 while ($row = mysqli_fetch_assoc($result)) {
     echo "<tr>";
-    echo "<td><a href='../Courses/CourseView.php'>" . $row['course_name'] . "</td></a>";
+    
+    echo "<td><a href='../Courses/CourseView.php?course_name=" . urlencode($row['course_name']) . "'>" . $row['course_name'] . "</a></td>";
+    
     echo "</tr>";
 }
 echo "</table>";
