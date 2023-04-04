@@ -15,9 +15,10 @@ Methodology :
 For the construction of the website, we implement the use of Apache Web server and PHP. We manage the database with phpadmin while the server side requests are handled by Apache Web Server hosted on the local computer. For this, the server was hosted on one of the participants and we all worked on it there.  We ran several test cases to verify whether the desire output was displayed or not. These can be categorised into three main categories:
 
 
-•	●   Test For Functionality:  We test whether the forms are functioning   correctly. We ccheck whether the forums are submitted correctly and that the information is being added to the databases. 
-•	●	 Test for Invalid Input: We test the forums by adding invalid inputs like empty fields, wrong datatypes, etc. The forums then should not submit and show an error message. 
-•	●	Test for Usability :  We then test the forums for their usability.  We ensure the forums are easy to use. We verify that the error messages are easily understandable.
+* Test For Functionality:  We test whether the forms are functioning   correctly. We ccheck whether the forums are submitted correctly and that the information is being added to the databases. 
+
+* Test for Invalid Input: We test the forums by adding invalid inputs like empty fields, wrong datatypes, etc. The forums then should not submit and show an error message. 
+*	Test for Usability :  We then test the forums for their usability.  We ensure the forums are easy to use. We verify that the error messages are easily understandable.
 
 
 
