@@ -1,4 +1,4 @@
-# QClicker – Courses made easier
+# QClicker – Courses Made Easier
 
 
 INTRODUCTION :
