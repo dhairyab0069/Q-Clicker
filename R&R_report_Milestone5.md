@@ -94,4 +94,4 @@ CONCLUSION / RESULTS :
 
 
 
-![image]()
+![image](Cumulative_Workflow_Diagram.png)
