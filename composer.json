@@ -1,21 +1,16 @@
 {
-    "name": "dhairyab0069/Q-Clicker",
-    "description": "Short description of your project",
-    "type": "project",
+    "name": "your-username/your-repository",
+    "description": "A brief description of your project",
     "require": {
-        // Dependencies go here
-        // "vendor/package": "version"
+        "php": "^7.4 || ^8.0"
+        // Add other dependencies here
     },
     "autoload": {
         "psr-4": {
-            "YourNamespace\\": "src/"
+            "App\\": "iclicker/WebContent/"
         }
     },
-    "authors": [
-        {
-            "name": "Dhairya Bhatia",
-            "email": "bhatiadhairya19@gmail.com"
-        }
-    ],
-    "license": "MIT" // or another appropriate license
+    "require-dev": {
+        // Include development dependencies like PHPUnit
+    }
 }
