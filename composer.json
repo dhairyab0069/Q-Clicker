@@ -3,7 +3,7 @@
     "description": "A brief description of your project",
     "require": {
         "php": "^7.4 || ^8.0"
-        // Add other dependencies here
+  
     },
     "autoload": {
         "psr-4": {
@@ -11,6 +11,6 @@
         }
     },
     "require-dev": {
-        // Include development dependencies like PHPUnit
+
     }
 }
