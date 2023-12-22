@@ -1,0 +1,21 @@
+{
+    "name": "dhairyab0069/Q-Clicker",
+    "description": "Short description of your project",
+    "type": "project",
+    "require": {
+        // Dependencies go here
+        // "vendor/package": "version"
+    },
+    "autoload": {
+        "psr-4": {
+            "YourNamespace\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dhairya Bhatia",
+            "email": "bhatiadhairya19@gmail.com"
+        }
+    ],
+    "license": "MIT" // or another appropriate license
+}
