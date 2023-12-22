@@ -1,17 +1,18 @@
 {
-    "name": "your-username/your-repository",
-    "description": "A brief description of your project",
+    "name": "dhairyab0069/Q-Clicker",
+    "description": "Your project description",
     "require": {
-        "php": "^7.4 || ^8.0"
-  
+        // List your production dependencies here
+        // Example: "some-vendor/some-package": "^version"
+    },
+    "require-dev": {
+        "php": "^7.4 || ^8.0",
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
-            "App\\": "iclicker/WebContent/"
+            "YourNamespace\\": ""iclicker/WebContent/""
         }
     },
-    "require-dev": {
-
-    }
-    "license": "MIT" 
+    "license": "MIT" // Or use another appropriate license
 }
