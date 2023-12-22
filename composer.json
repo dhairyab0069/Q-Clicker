@@ -1,8 +1,8 @@
 {
-    "name": "dhairyab0069/Q-Clicker",
-    "description": "Your project description",
+    "name": "dhairyab0069/q-clicker",
+    "description": "A PHP project for Q-Clicker",
     "require": {
-
+        // Your project's production dependencies go here
     },
     "require-dev": {
         "php": "^7.4 || ^8.0",
@@ -10,8 +10,8 @@
     },
     "autoload": {
         "psr-4": {
-            "YourNamespace\\": "iclicker/WebContent/"
+            "QClicker\\": "iclicker/WebContent/"
         }
     },
-    "license": "MIT" 
+    "license": "MIT"
 }
