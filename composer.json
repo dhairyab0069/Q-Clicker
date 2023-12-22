@@ -1,17 +1,17 @@
 {
-    "name": "dhairyab0069/q-clicker",
-    "description": "A PHP project for Q-Clicker",
-    "require": {
-        // Your project's production dependencies go here
-    },
-    "require-dev": {
-        "php": "^7.4 || ^8.0",
-        "phpunit/phpunit": "^9.5"
-    },
-    "autoload": {
-        "psr-4": {
-            "QClicker\\": "iclicker/WebContent/"
-        }
-    },
-    "license": "MIT"
+  "name": "dhairyab0069/q-clicker",
+  "description": "A PHP project for Q-Clicker",
+  "require": {
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "require-dev": {
+    "php": "^7.4 || ^8.0",
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "QClicker\\": "iclicker/WebContent/"
+    }
+  },
+  "license": "MIT"
 }
