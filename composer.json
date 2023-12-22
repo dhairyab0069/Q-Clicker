@@ -2,8 +2,7 @@
     "name": "dhairyab0069/Q-Clicker",
     "description": "Your project description",
     "require": {
-        // List your production dependencies here
-        // Example: "some-vendor/some-package": "^version"
+
     },
     "require-dev": {
         "php": "^7.4 || ^8.0",
@@ -14,5 +13,5 @@
             "YourNamespace\\": ""iclicker/WebContent/""
         }
     },
-    "license": "MIT" // Or use another appropriate license
+    "license": "MIT" 
 }
